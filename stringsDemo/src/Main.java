@@ -14,6 +14,17 @@ public class Main {
         System.out.println(mesaj.indexOf("av"));
         System.out.println(mesaj.lastIndexOf("a"));*/
 
-        
+        String yeniMesaj = mesaj.replace(' ','_');
+        System.out.println(yeniMesaj);
+        System.out.println(mesaj.substring(2,5));
+
+        for (String kelime : mesaj.split(" ")) {
+            System.out.println(kelime);
+        }
+        System.out.println(mesaj.toLowerCase());
+        System.out.println(mesaj.toUpperCase());
+        System.out.println(mesaj.trim());
+
+
     }
 }
